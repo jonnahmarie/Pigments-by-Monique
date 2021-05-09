@@ -1,3 +1,8 @@
+
+* {
+  box-sizing: border-box;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -20,4 +25,23 @@ li {
 a {
   text-decoration: none;
   color: #707070;
+}
+
+#faq {
+  margin-top: 100px;
+}
+
+h2 {
+  text-align:center; 
+  color: #707070;
+  font-weight: 900;
+}
+
+.button {
+  border-radius: 12px;
+  background-color: #f8adb1;
+  font-size: 20px;
+  color: #f8f3e3;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.1), 0 6px 20px 0 rgba(0,0,0,0.1);
+  padding: 15px 32px;
 }
